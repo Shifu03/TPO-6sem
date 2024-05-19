@@ -5,12 +5,10 @@ using System;
 using System.Xml.Linq;
 
 class EdgeDriverTest
-{
+{ 
     static void Main()
     {
-        // Инициализация WebDriver
         IWebDriver driver = new EdgeDriver();
-
         Actions actions = new Actions(driver);
 
         //Открыть сайт drweb.by
@@ -55,5 +53,7 @@ class EdgeDriverTest
 
         // Закрытие браузера
         driver.Quit();
+
+        Console.WriteLine("\nTest ended successfully!");
     }
 }

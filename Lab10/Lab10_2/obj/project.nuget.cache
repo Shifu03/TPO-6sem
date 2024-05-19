@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "y29n1Ji/fKBu2yWjmtWk7p9cUX+6b+NGzPwYPBYs9bNBHLXn+RDt4Szn/oSEGWQEmUl7tcWx9mzHKFizrgduMQ==",
+  "success": true,
+  "projectFilePath": "I:\\Lab10\\Lab10_2\\Lab10_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shafo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\shafo\\.nuget\\packages\\selenium.support\\4.21.0\\selenium.support.4.21.0.nupkg.sha512",
+    "C:\\Users\\shafo\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
