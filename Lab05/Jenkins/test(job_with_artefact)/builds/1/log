@@ -1,0 +1,9 @@
+Started by user [8mha:////4CrSIDx/6ytx34/DFWKonoAWpPeI0FYlsXLtYFtg5fr/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9zPzEvDwAPl5cnMAAAAA=[0mShaforost Ioann Sergeevich
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\test
+[test] $ cmd /c call C:\Windows\TEMP\jenkins10100922813941784369.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\test>ECHO Hello  1>text.txt 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\test>exit 0 
+Finished: SUCCESS

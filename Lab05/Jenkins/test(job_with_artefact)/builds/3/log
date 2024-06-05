@@ -1,0 +1,10 @@
+Started by user [8mha:////4CrSIDx/6ytx34/DFWKonoAWpPeI0FYlsXLtYFtg5fr/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgZu/dLi1CL9zPzEvDwAPl5cnMAAAAA=[0mShaforost Ioann Sergeevich
+Running as SYSTEM
+Собирается удаленно на [8mha:////4AX7TuWQEcuCbDu3HjIFJthtgygszyKKMX9gMXA8GTVNAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifc/8xLw8AFGX6irEAAAA[0mIoann (edge win64) in workspace D:/Slave/workspace/test
+[test] $ cmd /c call C:\Users\shafo\AppData\Local\Temp\jenkins17289070616802889458.bat
+
+D:\Slave\workspace\test>ECHO Hello  1>text.txt 
+
+D:\Slave\workspace\test>exit 0 
+Archiving artifacts
+Finished: SUCCESS

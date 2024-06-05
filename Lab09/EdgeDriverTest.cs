@@ -1,5 +1,5 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 using System;
 using System.Xml.Linq;
@@ -8,7 +8,7 @@ class EdgeDriverTest
 { 
     static void Main()
     {
-        IWebDriver driver = new EdgeDriver();
+        IWebDriver driver = new FirefoxDriver();
         Actions actions = new Actions(driver);
 
         //Открыть сайт drweb.by

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
 using Lab10_2.Page;
 
 namespace Lab10_2.Test
@@ -15,7 +15,7 @@ namespace Lab10_2.Test
         {
             try
             {
-                IWebDriver driver = new EdgeDriver();
+                IWebDriver driver = new FirefoxDriver();
 
                 // Создаем экземпляр страницы DrWebHomePage
                 DrWebHomePage homePage = new DrWebHomePage(driver);

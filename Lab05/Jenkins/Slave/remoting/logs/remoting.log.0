@@ -1,0 +1,29 @@
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: Ioann
+июн. 05, 2024 11:09:11 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3206.vb_15dcf73f6a_9
+июн. 05, 2024 11:09:11 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using D:\Slave\remoting as a remoting work directory
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+июн. 05, 2024 11:09:11 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    53182
+  Identity:      d5:de:11:c5:e0:cc:ee:ff:c2:01:9e:f0:ca:6e:13:0e
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:53182
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+июн. 05, 2024 11:09:11 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: d5:de:11:c5:e0:cc:ee:ff:c2:01:9e:f0:ca:6e:13:0e
+июн. 05, 2024 11:09:11 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connected

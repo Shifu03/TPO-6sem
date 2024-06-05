@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab09\\Lab09.csproj": {}
+    "I:\\123\\Lab09\\Lab09.csproj": {}
   },
   "projects": {
-    "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab09\\Lab09.csproj": {
+    "I:\\123\\Lab09\\Lab09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab09\\Lab09.csproj",
+        "projectUniqueName": "I:\\123\\Lab09\\Lab09.csproj",
         "projectName": "Lab09",
-        "projectPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab09\\Lab09.csproj",
+        "projectPath": "I:\\123\\Lab09\\Lab09.csproj",
         "packagesPath": "C:\\Users\\shafo\\.nuget\\packages\\",
-        "outputPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab09\\obj\\",
+        "outputPath": "I:\\123\\Lab09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shafo\\AppData\\Roaming\\NuGet\\NuGet.Config",

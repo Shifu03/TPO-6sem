@@ -1,6 +1,6 @@
 ﻿using Lab10_1.Page;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 using System;
 using System.Xml.Linq;
@@ -11,7 +11,7 @@ class EdgeDriverTest1
     {
         try
         {
-            IWebDriver driver = new EdgeDriver();
+            IWebDriver driver = new FirefoxDriver();
 
             // Создание экземпляра страницы DrWebHomePage
             DrWebHomePage homePage = new DrWebHomePage(driver);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SFxfsyku8GDwEbVQp6kuOsO1znm5iSp/aHX8CfNBCHnRGv6ddy1FwX3Q9TZ/FZF1neAJnHbNS+U6cRh1uS9whw==",
+  "dgSpecHash": "TdxNdUQi/kvjK+4oi5v7xDHz33+u8G2CzX9+GYIFYw3lWSkBcEFYuLp6stHehMUrVZOuK6ONjY/lhjlHEvaTrg==",
   "success": true,
-  "projectFilePath": "I:\\Lab10\\Lab10_1\\Lab10_1.csproj",
+  "projectFilePath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shafo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\shafo\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512"

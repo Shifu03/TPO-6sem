@@ -96,11 +96,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Lab10\\Lab10_1\\Lab10_1.csproj",
+      "projectUniqueName": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
       "projectName": "Lab10_1",
-      "projectPath": "I:\\Lab10\\Lab10_1\\Lab10_1.csproj",
+      "projectPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
       "packagesPath": "C:\\Users\\shafo\\.nuget\\packages\\",
-      "outputPath": "I:\\Lab10\\Lab10_1\\obj\\",
+      "outputPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shafo\\AppData\\Roaming\\NuGet\\NuGet.Config",
