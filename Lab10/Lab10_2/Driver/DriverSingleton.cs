@@ -11,20 +11,15 @@ using OpenQA.Selenium.Interactions;
 using System;
 using System.Xml.Linq;
 
-namespace Lab10_2.Driver
-{
-    internal class DriverSingleton
-    {
+namespace Lab10_2.Driver {
+    internal class DriverSingleton {
         public static IWebDriver driver;
 
         private DriverSingleton() { }
 
-        public static IWebDriver GetDriver(int numberOfBrowser)
-        {
-            if (driver == null)
-            {
-                switch (numberOfBrowser)
-                {
+        public static IWebDriver GetDriver(int numberOfBrowser) {
+            if (driver == null) {
+                switch (numberOfBrowser) {
                     case 1:
                         driver = new FirefoxDriver();
                         break;
@@ -36,8 +31,7 @@ namespace Lab10_2.Driver
             return driver;
         }
 
-        public static void CloseDriver()
-        {
+        public static void CloseDriver() {
             driver.Quit();
             driver = null;
         }

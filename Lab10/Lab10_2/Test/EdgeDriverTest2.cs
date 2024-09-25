@@ -32,33 +32,33 @@ namespace Lab10_2.Test {
 
                 IWebDriver driver = DriverSingleton.GetDriver(numberForChoosingBrowser);
 
-                // Создаем экземпляр страницы DrWebHomePage
                 DrWebHomePage homePage = new DrWebHomePage(driver);
 
-                // Открываем сайт drweb.by
                 homePage.NavigateTo();
 
+                logger.LogInformation("Переход на главную страницу Dr.Web\n");
+
                 Thread.Sleep(2000);
 
-                // Нажимаем на кнопку "Проверить ссылку"
                 DrWebCheckingPage checkingPage = homePage.GoToCheckingPage();
 
+                logger.LogInformation("Переход на страницу проверки ссылок\n");
+
                 Thread.Sleep(2000);
 
-                // Вводим некорректную ссылку для проверки
                 checkingPage.EnterLink("www.экзампл.123");
 
                 Thread.Sleep(2000);
 
-                // Нажимаем кнопку "Отправить"
                 checkingPage.Submit();
+
+                logger.LogInformation("Проверка ссылки \"www.экзампл.123\"\n");
 
                 Thread.Sleep(5000);
 
-                // Закрываем браузер
                 DriverSingleton.CloseDriver();
 
-                logger.LogInformation("Test ended successfully!");
+                logger.LogInformation("Test ended successfully!\n");
             }
             catch (Exception e) {
                 Screenshoter.TakeScreenshot();

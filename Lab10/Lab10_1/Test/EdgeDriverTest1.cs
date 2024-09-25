@@ -27,39 +27,38 @@ class EdgeDriverTest1 {
 
             IWebDriver driver = DriverSingleton.GetDriver(numberForChoosingBrowser);
 
-            // Создание экземпляра страницы DrWebHomePage
             DrWebHomePage homePage = new DrWebHomePage(driver);
 
-            // Открыть сайт drweb.by
             homePage.NavigateTo();
 
+            logger.LogInformation("Переход на главную страницу Dr.Web\n");
+
             Thread.Sleep(1000);
 
-            // Переход к странице "Лаборатория"
             DrWebLaboratoryPage labPage = homePage.GoToLabPage();
 
+            logger.LogInformation("Переход на страницу лаборатории Dr.Web\n");
+
             Thread.Sleep(1000);
 
-            // Навести курсор на элемент "База вирусов"
             labPage.HoverOverVirusLibrary();
 
             Thread.Sleep(1000);
 
-            // Переход к странице "База вирусов"
             DrWebVirusLibraryPage virusLibraryPage = labPage.GoToVirusLibraryPage();
+
+            logger.LogInformation("Переход на страницу вирусной библиотеки Dr.Web\n");
 
             Thread.Sleep(1000);
 
-            // Выполнить поиск по ключевому слову или фразе
             string keyword = "Linux";
             virusLibraryPage.Search(keyword);
 
             Thread.Sleep(3000);
 
-            // Закрытие браузера
             DriverSingleton.closeDriver();
 
-            logger.LogInformation("Test ended successfully!");
+            logger.LogInformation("Test ended successfully!\n");
         }
         catch (Exception e) {
             Screenshoter.TakeScreenshot();
