@@ -21,13 +21,13 @@ namespace Lab10_1.Page
 
         public void HoverOverVirusLibrary()
         {
-            IWebElement virusLibraryList = driver.FindElement(By.XPath("//div[@class = \"HEAD clearfix\"]/div[2]/div[2]/div[5]/dl/dt"));
+            IWebElement virusLibraryList = driver.FindElement(By.XPath(Parameters.PathsAndURLs.virusLibraryList));
             actions.MoveToElement(virusLibraryList).Perform();
         }
 
         public DrWebVirusLibraryPage GoToVirusLibraryPage()
         {
-            IWebElement virusLibrary = driver.FindElement(By.XPath("//div[@class = \"HEAD clearfix\"]/div[2]/div[2]/div[5]/dl/dd/div/ul/li[1]/a"));
+            IWebElement virusLibrary = driver.FindElement(By.XPath(Parameters.PathsAndURLs.virusLabrary));
             virusLibrary.Click();
 
             return new DrWebVirusLibraryPage(driver);

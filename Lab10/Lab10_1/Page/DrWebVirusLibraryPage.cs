@@ -18,7 +18,7 @@ namespace Lab10_1.Page
 
         public void Search(string keyword)
         {
-            IWebElement searchInput = driver.FindElement(By.XPath("//div[@class = \"CONTENT\"]/div[1]/div[1]/form/div/div/input"));
+            IWebElement searchInput = driver.FindElement(By.XPath(Parameters.PathsAndURLs.searchInput));
             searchInput.SendKeys(keyword);
             searchInput.Submit();
         }

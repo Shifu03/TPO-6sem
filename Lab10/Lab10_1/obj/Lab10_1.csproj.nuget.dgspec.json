@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj": {}
+    "D:\\Учёба\\Лабы\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj": {}
   },
   "projects": {
-    "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj": {
+    "D:\\Учёба\\Лабы\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
+        "projectUniqueName": "D:\\Учёба\\Лабы\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
         "projectName": "Lab10_1",
-        "projectPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
+        "projectPath": "D:\\Учёба\\Лабы\\TPO-6sem\\Lab10\\Lab10_1\\Lab10_1.csproj",
         "packagesPath": "C:\\Users\\shafo\\.nuget\\packages\\",
-        "outputPath": "I:\\Ioann\\Учеба\\Лабораторные\\Лабы_3-2\\Тестирование\\TPO-6sem\\Lab10\\Lab10_1\\obj\\",
+        "outputPath": "D:\\Учёба\\Лабы\\TPO-6sem\\Lab10\\Lab10_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shafo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\shafo\\Documents\\UiPath\\Libryaries": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,12 +35,33 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Castle.LoggingFacility": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.21.0, )"
@@ -62,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

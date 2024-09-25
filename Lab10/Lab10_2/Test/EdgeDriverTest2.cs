@@ -6,16 +6,28 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using Lab10_2.Page;
+using Lab10_2.Driver;
+using Microsoft.Extensions.Logging;
 
-namespace Lab10_2.Test
-{
-    internal class EdgeDriverTest2
-    {
-        static void Main()
-        {
-            try
-            {
-                IWebDriver driver = new FirefoxDriver();
+namespace Lab10_2.Test {
+    internal class EdgeDriverTest2 {
+        static void Main() {
+
+            var loggerFactory = LoggerFactory.Create(
+                    builder => builder
+                        .AddConsole()
+                        .AddDebug()
+                        .SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Debug)
+            );
+
+            var logger = loggerFactory.CreateLogger<EdgeDriverTest2>();
+
+            try {
+                Console.WriteLine("Какой браузер вы хотите использовать? Firefox(1) или Edge(2), введите соответствующее целочисленное значение:");
+
+                int numberForChoosingBrowser = Convert.ToInt32(Console.ReadLine());
+
+                IWebDriver driver = DriverSingleton.GetDriver(numberForChoosingBrowser);
 
                 // Создаем экземпляр страницы DrWebHomePage
                 DrWebHomePage homePage = new DrWebHomePage(driver);
@@ -41,13 +53,12 @@ namespace Lab10_2.Test
                 Thread.Sleep(5000);
 
                 // Закрываем браузер
-                driver.Quit();
+                DriverSingleton.CloseDriver();
 
-                Console.WriteLine("\nTest ended successfully!");
+                logger.LogInformation("Test ended successfully!");
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("\nTest do not ended or ended with errors!");
+            catch (Exception e) {
+                logger.LogError("Test do not ended or ended with errors!");
             }
         }
     }

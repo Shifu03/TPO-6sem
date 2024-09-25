@@ -18,19 +18,19 @@ namespace Lab10_2.Page
 
         public void NavigateTo()
         {
-            driver.Navigate().GoToUrl("https://www.drweb.by/");
+            driver.Navigate().GoToUrl(Parameters.PathsAndURLs.homePage);
         }
 
         public DrWebCheckingPage GoToCheckingPage()
         {
-            IWebElement checkLinkButton = driver.FindElement(By.XPath("/html/body/div[2]/main/div/div[3]/a[1]"));
+            IWebElement checkLinkButton = driver.FindElement(By.XPath(Parameters.PathsAndURLs.checkLinkButton));
             try
             {
                 checkLinkButton.Click();
             }
             catch (Exception ex)
             {
-                driver.Navigate().GoToUrl("https://vms.drweb.by/online/?utm_medium=glavnaya&utm_source=drweb_site&utm_campaign=urlonline");
+                driver.Navigate().GoToUrl(Parameters.PathsAndURLs.vms);
             }
 
             return new DrWebCheckingPage(driver);

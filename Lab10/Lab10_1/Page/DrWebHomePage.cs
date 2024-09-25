@@ -18,15 +18,15 @@ namespace Lab10_1.Page
 
         public void NavigateTo()
         {
-            driver.Navigate().GoToUrl("https://www.drweb.by/");
+            driver.Navigate().GoToUrl(Parameters.PathsAndURLs.homePage);
         }
 
         public DrWebLaboratoryPage GoToLabPage()
         {
-            IWebElement menuButton = driver.FindElement(By.XPath("//div[@class = \"grid grid-rows-[auto_auto_1fr_auto] min-h-screen\"]/header/div[1]/div[1]/div[@class = \"flex gap-4 lg:[.search-showed_&]:hidden\"]/button[1]"));
+            IWebElement menuButton = driver.FindElement(By.XPath(Parameters.PathsAndURLs.menuButton));
             menuButton.Click();
 
-            IWebElement abLab = driver.FindElement(By.XPath("//div[@class = \"grid grid-rows-[auto_auto_1fr_auto] min-h-screen\"]/header/div[1]/div[1]/div[1]/nav[1]/div[2]/ul/li[2]/a"));
+            IWebElement abLab = driver.FindElement(By.XPath(Parameters.PathsAndURLs.abLab));
             abLab.Click();
 
             return new DrWebLaboratoryPage(driver);

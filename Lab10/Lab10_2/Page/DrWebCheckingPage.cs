@@ -18,13 +18,13 @@ namespace Lab10_2.Page
 
         public void EnterLink(string link)
         {
-            IWebElement linkInput = driver.FindElement(By.XPath("//*[@id=\"url_to_scan\"]"));
+            IWebElement linkInput = driver.FindElement(By.XPath(Parameters.PathsAndURLs.linkInput));
             linkInput.SendKeys(link);
         }
 
         public void Submit()
         {
-            IWebElement submitButton = driver.FindElement(By.XPath("//*[@id=\"drwebscanformURL\"]/div/div[2]/button"));
+            IWebElement submitButton = driver.FindElement(By.XPath(Parameters.PathsAndURLs.submitButton));
             submitButton.Click();
         }
     }
