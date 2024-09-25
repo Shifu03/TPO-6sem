@@ -65,6 +65,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.21.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [

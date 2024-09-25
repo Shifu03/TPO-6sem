@@ -6,6 +6,7 @@ using OpenQA.Selenium.Interactions;
 using System;
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
+using Lab10_1.Log;
 
 class EdgeDriverTest1 { 
     static void Main() {
@@ -32,28 +33,28 @@ class EdgeDriverTest1 {
             // Открыть сайт drweb.by
             homePage.NavigateTo();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             // Переход к странице "Лаборатория"
             DrWebLaboratoryPage labPage = homePage.GoToLabPage();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             // Навести курсор на элемент "База вирусов"
             labPage.HoverOverVirusLibrary();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             // Переход к странице "База вирусов"
             DrWebVirusLibraryPage virusLibraryPage = labPage.GoToVirusLibraryPage();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             // Выполнить поиск по ключевому слову или фразе
             string keyword = "Linux";
             virusLibraryPage.Search(keyword);
 
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
 
             // Закрытие браузера
             DriverSingleton.closeDriver();
@@ -61,6 +62,7 @@ class EdgeDriverTest1 {
             logger.LogInformation("Test ended successfully!");
         }
         catch (Exception e) {
+            Screenshoter.TakeScreenshot();
             logger.LogError("Test do not ended or ended with errors!");
         }
     }

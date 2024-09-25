@@ -8,6 +8,9 @@ using OpenQA.Selenium.Firefox;
 using Lab10_2.Page;
 using Lab10_2.Driver;
 using Microsoft.Extensions.Logging;
+using System.Drawing.Imaging;
+using System.Drawing;
+using Lab10_1.Log;
 
 namespace Lab10_2.Test {
     internal class EdgeDriverTest2 {
@@ -58,7 +61,9 @@ namespace Lab10_2.Test {
                 logger.LogInformation("Test ended successfully!");
             }
             catch (Exception e) {
+                Screenshoter.TakeScreenshot();
                 logger.LogError("Test do not ended or ended with errors!");
+                
             }
         }
     }

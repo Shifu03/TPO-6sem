@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{66AE1FE7-91F2-44CE-831B-158BD1EB376D}|Lab10_1\\Lab10_1.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043B\u0430\u0431\u044B\\tpo-6sem\\lab10\\lab10_1\\test\\edgedrivertest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66AE1FE7-91F2-44CE-831B-158BD1EB376D}|Lab10_1\\Lab10_1.csproj|solutionrelative:lab10_1\\test\\edgedrivertest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F40B12-F87D-4CC5-9A59-CBC13619B287}|Lab10_2\\Lab10_2.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043B\u0430\u0431\u044B\\tpo-6sem\\lab10\\lab10_2\\log\\screenshoter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F40B12-F87D-4CC5-9A59-CBC13619B287}|Lab10_2\\Lab10_2.csproj|solutionrelative:lab10_2\\log\\screenshoter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66AE1FE7-91F2-44CE-831B-158BD1EB376D}|Lab10_1\\Lab10_1.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043B\u0430\u0431\u044B\\tpo-6sem\\lab10\\lab10_1\\log\\screenshoter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66AE1FE7-91F2-44CE-831B-158BD1EB376D}|Lab10_1\\Lab10_1.csproj|solutionrelative:lab10_1\\log\\screenshoter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Screenshoter.cs",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_2\\Log\\Screenshoter.cs",
+              "RelativeDocumentMoniker": "Lab10_2\\Log\\Screenshoter.cs",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_2\\Log\\Screenshoter.cs",
+              "RelativeToolTip": "Lab10_2\\Log\\Screenshoter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:23:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Screenshoter.cs",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_1\\Log\\Screenshoter.cs",
+              "RelativeDocumentMoniker": "Lab10_1\\Log\\Screenshoter.cs",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_1\\Log\\Screenshoter.cs",
+              "RelativeToolTip": "Lab10_1\\Log\\Screenshoter.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:02:36.727Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +62,7 @@
               "RelativeDocumentMoniker": "Lab10_2\\Test\\EdgeDriverTest2.cs",
               "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_2\\Test\\EdgeDriverTest2.cs",
               "RelativeToolTip": "Lab10_2\\Test\\EdgeDriverTest2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAABCAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwD4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T07:15:21.736Z",
               "EditorCaption": ""
@@ -41,7 +75,7 @@
               "RelativeDocumentMoniker": "Lab10_1\\Test\\EdgeDriverTest1.cs",
               "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041B\u0430\u0431\u044B\\TPO-6sem\\Lab10\\Lab10_1\\Test\\EdgeDriverTest1.cs",
               "RelativeToolTip": "Lab10_1\\Test\\EdgeDriverTest1.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAQwD8AAAAMAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwEAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T22:59:14.136Z",
               "EditorCaption": ""
